@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Kamlesh Kumar's Portfolio</title>
+    <style>
+        /* Underline for section headings */
+        section h2 {
+            border-bottom: 2px solid #e8491d;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        /* Showcase */
+        #showcase {
+            min-height: 400px;
+    background: linear-gradient(rgba(53, 66, 74, 0.8), rgba(53, 66, 74, 0.8)), url('showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover; /* Ensure the background image covers the entire section */
+    position: relative; /* Ensure proper stacking of elements within the section */
+}
+
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        footer{
+          padding-top: 10px;
+          height: 80px;
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class='container'>
+            <div id='branding'>
+                <h1><span class='highlight'>Kamlesh Kumar</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class='current'><a href='index.html'>Home</a></li>
+                    <li><a href='#about.html'>About</a></li>
+                    <li><a href='#projects.html'>Projects</a></li>
+                    <li><a href='#contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id='showcase'>
+        <div class='container'>
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate software engineer with a focus on front-end development.</p>
+        </div>
+    </section>
+    <section id='about' class='container'>
+        <h2>About Me</h2>
+        <p>Name: Kamlesh Kumar</p>
+        <p>Current Education: B.E (Software Engineering)</p>
+        <p>Completed Education: Intermediate in Pre Engineering</p>
+    </section>
+    <section id='projects' class='container'>
+        <h2>Projects</h2>
+        <!-- Project 1 -->
+        <div class='project' style='text-align: center; margin-bottom: 20px;'>
+            <h3>Youtube Clone Webpage</h3>
+            <p>A clone of youtube has been made </p>
+            <a href='youtubeclone.html' target='_blank'>View Project</a>
+        </div>
+        <!-- Project 2 -->
+        <!-- <div class='project' style='text-align: center; margin-bottom: 20px;'>
+            <h3>Digital Clock</h3>
+            <p>A Simple Digital clock that was made using html , css and JS</p>
+            <a href='#' target='_blank'>View Project</a>
+        </div>
+        Add more projects as needed -->
+    </section>
+    <section id='contact' class='container'>
+        <h2>Contact Me</h2>
+        <p>Please feel free to reach out to me!</p>
+        <!-- Contact form or information goes here -->
+    </section>
+    <footer>
+        <p>Kamlesh Kumar &copy; 2023</p>
+    </footer>
+</body>
+</html>
